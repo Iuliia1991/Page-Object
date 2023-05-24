@@ -1,6 +1,8 @@
 from selenium.webdriver.common.by import By
-from pages.main_page import MainPage
 from pages.login_page import LoginPage
+from pages.locators import BasePageLocators
+from pages.main_page import MainPage
+
 
 
 def test_guest_can_go_to_login_page(browser):
