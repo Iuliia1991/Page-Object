@@ -9,4 +9,4 @@ class BasketPage(BasePage):
 
     def basket_empty_text_present(self):
         assert self.is_element_present(*BasketPageLocators.BASKET_EMPTY_TEXT), \
-            "Basket empty text is not present!"
+            "Basket empty text is not presented!"
